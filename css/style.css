@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Amaranth');
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+*
+{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;	
+}
+.heading
+{
+	text-align:center;
+	color:grey;
+	font-family: 'Patua One', cursive , 'Bree Serif', serif ;
+}
+ul.nav-tabs li
+{
+	width:50%;
+}
+ul.nav-tabs li a
+{
+	border-radius:0;
+	text-align:center;
+	font-family: 'Bree Serif', serif , 'Patua One', cursive;
+	font-size:1.5em;
+}
+.form-control
+{
+	height:3.5em;
+	font-family:verdana;
+	font-size:1.3em;
+}
+.nav-tabs 
+{
+	border:1px solid #979faf;
+	border-collapse:collapse;
+}
+.nav > li > a
+{
+	margin-right:0;
+}
+.tab-content
+{
+	border:1px solid #979faf;padding:8px;border-top:none;
+}
+input[type=text] , input[type=password] 
+{
+	background:transparent;
+}
+.checkbox
+{
+	font-family:'Bree Serif', serif , 'Patua One', cursive;
+}
+.col-sm-6 , .col-md-6
+{
+	border:2px solid green;
+	padding:2%;
+	padding-top:0;
+	background:linen;
+}
+@media screen and (max-width:800px)
+{
+	body
+	{
+		font-size:1em;
+	}
+	.checkbox
+	{
+		font-size:1.3em;
+	}
+	.heading
+	{
+		font-size:2.5em;
+	}
+}
